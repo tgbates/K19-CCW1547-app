@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Answer the questions on the form as follows:
+What is the primary reason for the number you gave? = Question 2
+and For the roles you interact with, what am I doing really well? = Question 3
+and What one thing could I do to make me even more awesome? = Question 4
+and Receiver = 
+and Overall, how likely are you to recommend working with me to a friend or colleague on a scale of 0-10? = 10
+and Submitter = Fred Luddy</description>
+        <display_name>Set Variable Values</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>3</order>
+        <snapshot/>
+        <step_config display_value="Set Variable Values">323ca6e1c3b2220076173b0ac3d3aec1</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-07 22:59:28</sys_created_on>
+        <sys_id>1659e5d5499533007f44f279803a1ae7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Set Variable Values</sys_name>
+        <sys_package display_value="PeerReview" source="x_snc_peerreview">ac9b1f92db817b00d449f78eaf9619f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PeerReview">ac9b1f92db817b00d449f78eaf9619f9</sys_scope>
+        <sys_update_name>sys_atf_step_1659e5d5499533007f44f279803a1ae7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-07 23:00:58</sys_updated_on>
+        <table/>
+        <test display_value="Submit Peer Review Feedback">5fb8ed55499533007f44f279803a1aae</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=1659e5d5499533007f44f279803a1ae7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>1659e5d5499533007f44f279803a1ae7</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-07 22:59:28</sys_created_on>
+        <sys_id>3c9969d5499533007f44f279803a1ab7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-07 23:00:59</sys_updated_on>
+        <value>IO:e2d6dcaadb057b00d449f78eaf9619a0=Question 2^IO:ac37d0eadb057b00d449f78eaf96198b=Question 3^IO:7f47d0eadb057b00d449f78eaf9619e5=Question 4^IO:b856d0aadb057b00d449f78eaf9619d5={{step['4be82195499533007f44f279803a1afd'].user}}^IO:1676d8aadb057b00d449f78eaf961973=10^IO:0665dc6adb057b00d449f78eaf961950=5137153cc611227c000bbd1bd8cd2005^EQ</value>
+        <variable display_value="">346eea25c3b2220076173b0ac3d3ae8b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>1659e5d5499533007f44f279803a1ae7</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-07 22:59:28</sys_created_on>
+        <sys_id>fc9969d5499533007f44f279803a1ab7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-07 22:59:28</sys_updated_on>
+        <value>5e84906adb057b00d449f78eaf961973</value>
+        <variable display_value="">571e6a25c3b2220076173b0ac3d3ae46</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=1659e5d5499533007f44f279803a1ae7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>variable_values</field>
+        <id>1659e5d5499533007f44f279803a1ae7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-07 22:59:28</sys_created_on>
+        <sys_id>b89969d5499533007f44f279803a1ab7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-07 23:00:58</sys_updated_on>
+        <table>var__m_atf_input_variable_323ca6e1c3b2220076173b0ac3d3aec1</table>
+        <value>IO:e2d6dcaadb057b00d449f78eaf9619a0=Question 2^IO:ac37d0eadb057b00d449f78eaf96198b=Question 3^IO:7f47d0eadb057b00d449f78eaf9619e5=Question 4^IO:b856d0aadb057b00d449f78eaf9619d5={{step['4be82195499533007f44f279803a1afd'].user}}^IO:1676d8aadb057b00d449f78eaf961973=10^IO:0665dc6adb057b00d449f78eaf961950=5137153cc611227c000bbd1bd8cd2005^EQ</value>
+    </sys_element_mapping>
+</record_update>
